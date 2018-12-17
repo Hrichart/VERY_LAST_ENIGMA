@@ -290,9 +290,9 @@ public class Crypt_decrypt extends AppCompatActivity {
         if(offset1==selected_rotor_1[52]) offset2=offset2+1;    //Controllo per l'incremento del secondo e del terzo rotore
         if(offset2==selected_rotor_2[52]) offset3=offset3+1;
 
-        if(offset1==27) offset1=1;      //Controllo dell'indice quando si arriva alla fine degli elementi del rotore per farlo ripartire dall'inizio
-        if(offset2==27) offset2=1;
-        if(offset3==27) offset3=1;
+        if(offset1==26) offset1=1;      //Controllo dell'indice quando si arriva alla fine degli elementi del rotore per farlo ripartire dall'inizio
+        if(offset2==26) offset2=1;
+        if(offset3==26) offset3=1;
 
         ltt1.setText(String.valueOf(letters[offset1]));
         ltt2.setText(String.valueOf(letters[offset2]));

@@ -13,8 +13,8 @@
     <string name="rotors_reflector">Scegli il riflettore</string>
     <string name="save">Salva le modifiche</string>
     <string name="save_toast">Modifiche salvate</string>
-    <string name="reset1">Resetta i rotori</string>
-    <string name="reset_toast">Reset dei rotori</string>
+    <string name="reset1">Ripristina i rotori</string>
+    <string name="reset_toast">Ripristino dei rotori</string>
     <string name="start_selection">Seleziona le prime lettere dei rotori</string>
     <string name="first_letter">I rotore</string>
     <string name="second_letter">II rotore</string>

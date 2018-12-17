@@ -12,7 +12,7 @@
     <string name="rotors_reflector">Choose the reflector</string>
     <string name="save">Save changes</string>
     <string name="save_toast">Changes saved</string>
-    <string name="reset1">Reset rotors</string>
+    <string name="reset1">Restore rotors</string>
     <string name="reset_toast">Reset of rotors</string>
     <string name="start_selection">Select the starting letters of the rotors</string>
     <string name="first_letter">1st rotor</string>
