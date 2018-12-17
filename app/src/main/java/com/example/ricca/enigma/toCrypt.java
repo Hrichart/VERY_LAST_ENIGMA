@@ -4,6 +4,7 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -38,6 +39,12 @@ public class toCrypt extends AppCompatActivity {
 
     public void openCrypt(View view)
     {
+        Crypt_decrypt.crypt_preferences=getSharedPreferences(Crypt_decrypt.CRYPTPREFERENCES,Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor=Crypt_decrypt.crypt_preferences.edit();
+        editor.putString("original_text_key","");
+        editor.putString("crypted_text2_key","");
+        editor.putString("decrypted_text2_key","");
+        editor.apply();
         Intent intent=new Intent(this,Crypt_decrypt.class);
         startActivity(intent);
     }
